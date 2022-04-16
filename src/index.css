@@ -18,7 +18,7 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --transition: all 400ms ease;
+  --transition: all 500ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -61,7 +61,6 @@ h1{
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -115,6 +114,8 @@ img{
   object-fit: cover;
 }
 
+
+
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width:1024px) {
   .container {
@@ -134,5 +135,6 @@ img{
 
   section > h2{
     margin-bottom: 2rem;
+
   }
 }
