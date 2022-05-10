@@ -10,6 +10,7 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  color: var(--color-dark);
 }
 
 
@@ -17,6 +18,7 @@
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
+  color: var(--color-light)
 }
 
 .experience__container > div h3 {
@@ -39,6 +41,10 @@
 
 .experience__details-icon {
   margin-top: 6px;
+  color: var(--color-primary);
+}
+
+.experience__details small{
   color: var(--color-primary);
 }
 

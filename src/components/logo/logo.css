@@ -1,0 +1,20 @@
+.logo{
+  justify-content: left;
+  max-width: 15%;
+  max-height: 15%;
+} 
+
+.navbar {
+  /* overflow: hidden; */
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative; /* Set the navbar to fixed position */
+  top: 50; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Change background on mouse-over */
+.navbar.active{
+  background: #ddd;
+  color: black;
+}
+
